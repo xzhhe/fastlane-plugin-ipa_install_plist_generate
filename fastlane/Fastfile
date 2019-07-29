@@ -1,0 +1,11 @@
+lane :test do
+  ipa_install_plist_generate(
+    output: '/Users/xiongzenghui/Desktop/ipa.plist',
+    url: 'https://updown.in.xx.com/download/xx-6.5.0-189-20190726_101548.ipa',
+    bundle_identifier: 'com.cn.xzh',
+    bundle_version: '9.9.9',
+    display_image: 'https://example.com/app.png',
+    full_size_image: 'https://example.com/app.png',
+    title: 'test app'
+  )
+end
