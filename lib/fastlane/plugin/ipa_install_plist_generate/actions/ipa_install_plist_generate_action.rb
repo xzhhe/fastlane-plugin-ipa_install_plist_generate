@@ -23,14 +23,6 @@ module Fastlane
           {
             'kind' => 'software-package',
             'url' => url
-          }, 
-          {
-            'kind' => 'display-image',
-            'url' => display_image
-          },
-          {
-            'kind' => 'full-size-image',
-            'url' => full_size_image
           }
         ]
 
