@@ -32,50 +32,50 @@ lane :test do
 end
 ```
 
-generate plist for below: 
+generate plist for below:
 
 ```plist
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>items</key>
-	<array>
-		<dict>
-			<key>assets</key>
-			<array>
-				<dict>
-					<key>kind</key>
-					<string>software-package</string>
-					<key>url</key>
-					<string>https://updown.in.xx.com/download/xx-6.5.0-189-20190726_101548.ipa</string>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>display-image</string>
-					<key>url</key>
-					<string>https://example.com/app.png</string>
-				</dict>
-				<dict>
-					<key>kind</key>
-					<string>full-size-image</string>
-					<key>url</key>
-					<string>https://example.com/app.png</string>
-				</dict>
-			</array>
-			<key>metadata</key>
-			<dict>
-				<key>bundle-identifier</key>
-				<string>com.cn.xzh</string>
-				<key>bundle-version</key>
-				<string>9.9.9</string>
-				<key>kind</key>
-				<string>software</string>
-				<key>title</key>
-				<string>test app</string>
-			</dict>
-		</dict>
-	</array>
+  <key>items</key>
+  <array>
+    <dict>
+      <key>assets</key>
+      <array>
+        <dict>
+          <key>kind</key>
+          <string>software-package</string>
+          <key>url</key>
+          <string>https://updown.in.xx.com/download/xx-6.5.0-189-20190726_101548.ipa</string>
+        </dict>
+        <dict>
+          <key>kind</key>
+          <string>display-image</string>
+          <key>url</key>
+          <string>https://example.com/app.png</string>
+        </dict>
+        <dict>
+          <key>kind</key>
+          <string>full-size-image</string>
+          <key>url</key>
+          <string>https://example.com/app.png</string>
+        </dict>
+      </array>
+      <key>metadata</key>
+      <dict>
+        <key>bundle-identifier</key>
+        <string>com.cn.xzh</string>
+        <key>bundle-version</key>
+        <string>9.9.9</string>
+        <key>kind</key>
+        <string>software</string>
+        <key>title</key>
+        <string>test app</string>
+      </dict>
+    </dict>
+  </array>
 </dict>
 </plist>
 ```
